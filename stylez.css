@@ -30,7 +30,8 @@ section {
     position: absolute;
     bottom: 0;
     left: 0;
-    object-fit: cover;
+    width: 1262px;
+    height: auto;
     z-index: -1;
 }
 
