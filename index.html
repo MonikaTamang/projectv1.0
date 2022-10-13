@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/1logo.png" type="image/icon type">
         <title>1+ Solution</title>
         <script src="https://kit.fontawesome.com/a81368914c.js"></script>
         <link rel="stylesheet" href="stylez.css">
@@ -13,30 +14,40 @@
     <body>
         <div class="main">
             <section id="home">
-                <img class="wave" src="background.png">
+                <img class="wave" src="images/background.png">
 
 
                 <header>
                     <div id="navbar" class="navbar">
                         <div class="icon">
-                            <h2 class="logo"> 1+ Solution</h2>
+                            <img src="images/logo1solution.png" alt="1+" class="logoimg">
+
                         </div>
 
 
-                        <div class="menu">
+                        <div class="topnav" id="myTopnav">
                             <ul>
+
                                 <li><a href="#home">HOME</a></li>
                                 <li><a href="#service">SERVICE</a></li>
                                 <li><a href="#vision">VISION</a></li>
                                 <li><a href="#about">ABOUT</a></li>
-                                <li><a href="#register">REGISTER</a></li>
+
+                                <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                        <i class="fa fa-bars"></i>
+                                    </a></li>
                             </ul>
                         </div>
-                        <div class="search">
+                        <!--<div class="search">
                             <input class="srch" type="search" name="" placeholder="Type to text">
                             <a href="#"><button class="btn1">Search</button></a>
+                        </div>-->
+                        <div class="progress-container">
+                            <div class="progress-bar" id="myBar"></div>
                         </div>
                     </div>
+
+
                 </header>
 
 
@@ -53,7 +64,7 @@
 
                     <div class="login-content">
                         <form action="index.html">
-                            <img src="avatar.svg">
+                            <img src="images/avatar.svg">
                             <h2 class="title">Login Here</h2>
                             <div class="input-div one">
                                 <div class="i">
@@ -79,47 +90,107 @@
                         </form>
                     </div>
                 </div>
-            </section>
+        </div>
+        </section>
 
-
+        <div class="main">
             <section id="service">
-                <div class="grid-container">
-                    <div class="left"></div>
-                    <div class=" right">
-                        <h1>Service</h1>
-                    </div>
-                </div>
 
 
-            </section>
-            <section id="vision">
-                <div class="grid-container">
-                    <div class=" right"></div>
-                    <div class="left">
-                        <h1>Vision</h1>
+                <div class="cards">
+                    <div class="card1">
+                        <div class="text1" id="serve">
+                            <h2> Services </h2>
+                            <p>Job Portal<br>
+                                Problem Post<br>
+                                Visa Extend<br>
+                                Ticket and Cargo<br>
+                                Lawyer Service<br>
+                                Business opportunities<br>
+                                Buy and Sell Products<br>
+                                Crowd Funding<br>
+                                Pandit and Lama Service<br>
+                            </p>
+
+
+                        </div>
                     </div>
-                </div>
-            </section>
-            <section id="about">
-                <div class="grid-container">
-                    <div class="left"></div>
-                    <div class=" right">
-                        <h1>About</h1>
+                    <div class="card2">
+                        <img src="images/services.svg" alt="">
                     </div>
 
                 </div>
-            </section>
-            <section id="register">
-                <div class="grid-container">
 
-                    <div class=" right"></div>
-                    <div class="left">
-                        <h1></h1>
-                    </div>
-                </div>
-            </section>
 
         </div>
+
+        </section>
+        <section id="vision">
+            <div class="main">
+                <div class="cards">
+                    <div class="card1">
+                        <img src="images/visiony1.png" alt="">
+                    </div>
+
+                    <div class="card2">
+                        <div class="text1">
+                            <h2> <span> Vision</span> </h2>
+                            <p>
+                                To create a platform where all our Nepalese people can connect to each other where they
+                                can share their own business idea along with their daily struggles like if they need any
+                                medical assistance or diplomatic support.
+
+                            </p><br>
+                            <p>This platform would be a entrepreneneur's platform where people can share their business
+                                ideas and request for capital in order to establish it anywhere around the globe. We
+                                would provide the funds and all the required documentation process to help them for
+                                setting up their business in the preferred locations</p>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+        <section id="about">
+            <div class="main">
+                <div class="cards">
+                    <div class="card1">
+                        <div class="text1">
+                            <h2> About Us </h2>
+                            <p>1+ Solution is the platform where nepalese people working in U.A.E connect to each other
+                                for help, support and grow together. It creates many opportunities to all the nepalese
+                                people in U.A.E. The name 1+ means to make connection and union between nepalese people.
+                                Along with that it also symbolise for every problem there is a solution. As many people
+                                are facing different problem in foreign land this platform helps to solve the problem
+                                with the
+                                proper solution. Therefore connecting nepalese people for exchanging thoughts, idea and
+                                creating strong bond to develop prosperous and build up together. So it is named 1+
+                                Solution, which also says that while problem rise solution for that will also rise.
+                                <br> Our heritage company is P&G Technology that was founded in
+                                Singapore, 2007 A.D. and in Nepal 2008 A.D. It was established as a laptop assembly and
+                                Software company with additional
+                                licenses from the government to do various sectors of business.
+                                P&G have worked with Government of Nepal to set up Software for “Confidential
+                                Data":-<br>
+
+                                1. Ministry of Education <br>
+                                2. Ministry of Eastern Development Region Office</br>
+                                3. Nepali Congress (12 th and 13 th Convention).<br>
+                                4. Nepali Congress Women Association (Convention).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <img src="images/aboutusbg.png" alt="">
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+
+
+
         <script src="index.js"> </script>
     </body>
 
