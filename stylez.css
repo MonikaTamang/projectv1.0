@@ -24,21 +24,21 @@ html {
     background: url(images/backg1.png);
     background-position: center;
     background-size: cover;
-    width: auto
+    width: auto;
 }
 
 #vision {
     background: url(images/backg3.png);
     background-position: center;
     background-size: cover;
-    width: auto
+    width: auto;
 }
 
 #about {
     background: url(images/backg2.1.png);
     background-position: center;
     background-size: cover;
-    width: auto
+    width: auto;
 }
 
 .navbar {
@@ -298,7 +298,7 @@ ul li a:hover {
 }
 
 .text1 span {
-    color: #fff;
+    color: rgb(45, 205, 226);
     font-size: 60px;
     padding-bottom: 40px;
 }
