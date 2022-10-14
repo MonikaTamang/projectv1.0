@@ -14,31 +14,35 @@ html {
 }
 
 #home {
+width: 100%;
     background: url(images/background.png);
     background-position: center;
     background-size: cover;
-    width: auto;
+    
 }
 
 #service {
+width: 100%;
     background: url(images/backg1.png);
     background-position: center;
     background-size: cover;
-    width: auto;
+    
 }
 
 #vision {
+width: 100%;
     background: url(images/backg3.png);
     background-position: center;
     background-size: cover;
-    width: auto;
+    width: 
 }
 
 #about {
+width: 100%;
     background: url(images/backg2.1.png);
     background-position: center;
     background-size: cover;
-    width: auto;
+    
 }
 
 .navbar {
